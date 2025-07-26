@@ -1,0 +1,76 @@
+\documentclass[11pt]{article}
+
+\usepackage[landscape, a4paper, margin=0.3in]{geometry} % landscape and proper margins
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{hhline}
+
+\renewcommand{\arraystretch}{1.8} % row height for handwriting
+\setlength{\tabcolsep}{10pt} % column padding
+
+\newcommand{\emptylogrow}{%
+  \hspace*{2cm} & 
+  \hspace*{1.5cm} & 
+  \hspace*{2cm} & 
+  \hspace*{1cm} & 
+  \hspace*{1cm} & 
+  \hspace{7.5cm} & 
+  \hspace{5cm} \\ 
+  \hline
+}
+
+\begin{document}
+	
+\pagestyle{empty}
+
+Date: \hfill \textbf{SV Yaniv} 
+% change to the name of your sailing vessel (SV), ours is Yaniv
+
+\begin{longtable}{
+	>{\centering\arraybackslash}p{2cm}
+	|>{\centering\arraybackslash}p{1.5cm}
+	|>{\centering\arraybackslash}p{2cm}
+	|>{\centering\arraybackslash}p{1cm}
+	|>{\centering\arraybackslash}p{1cm}
+	|>{\centering\arraybackslash}p{8cm}
+	|>{\centering\arraybackslash}p{7cm}
+}
+\hline
+\textbf{Time} & 
+\textbf{Log} & 
+\textbf{Prop.} & 
+\multicolumn{2}{c|}{\textbf{Velocity}} & 
+\textbf{Position} & 
+\textbf{Comments} \\
+\hline
+
+% fill the page with empty rows
+
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+\emptylogrow
+
+% you can add or remove rows here
+
+\end{longtable}
+
+\textbf{Notes}
+
+\end{document}
+
+

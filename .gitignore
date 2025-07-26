@@ -1,0 +1,5 @@
+
+# Ignore output files
+logbook.aux
+logbook.log
+logbook.pdf
