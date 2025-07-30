@@ -2,11 +2,9 @@ name: Build LaTeX PDF
 
 on:
   push:
-    paths:
-      - '**.tex'
+    branches:
+      - main
   pull_request:
-    paths:
-      - '**.tex'
 
 jobs:
   build:
